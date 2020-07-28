@@ -8,6 +8,7 @@ let typed = new Typed('#typed', {
 $('.owl-carousel').owlCarousel({
   loop: true,
   margin: 0,
+  autoplay: true,
   dots: true,
   nav: true,
   navText: [
