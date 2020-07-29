@@ -1,7 +1,12 @@
 body {
   font-family: 'Nunito', sans-serif;
 }
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Poppins', sans-serif;
   color: #1f1f1f;
   line-height: 1.3;
@@ -9,12 +14,15 @@ h1, h2, h3, h4, h5, h6 {
 /*Apply styles after scroll*/
 .scrolling-active {
   background-color: #fff !important;
-  box-shadow: 0 3px 1rem rgba(0,0,0,.1);
+  box-shadow: 0 3px 1rem rgba(0, 0, 0, 0.1);
   transition: 0.5s ease-out;
 }
 
 .scrolling-active.navbar-dark .navbar-nav .nav-link {
   color: #313131 !important;
+  transition: 0.5s ease-out;
+}
+.bg-transparent {
   transition: 0.5s ease-out;
 }
 
@@ -152,10 +160,10 @@ header .owl-theme .owl-dots .owl-dot span {
   background-color: #626262;
 }
 .services .icon i {
-  color: #00AC9E ;
+  color: #00ac9e;
 }
 .services h2 {
-  color: #6B6B6B;
+  color: #6b6b6b;
   font-size: 4rem;
   font-weight: bold;
 }
@@ -173,8 +181,9 @@ header .owl-theme .owl-dots .owl-dot span {
 /* ====================== End Services ======================= */
 
 /* ====================== Start Prices ======================= */
-#prices,#testemonials {
-  background-color: #F7F7F7;
+#prices,
+#testemonials {
+  background-color: #f7f7f7;
 }
 .prices h2 {
   color: #ddd;
@@ -263,7 +272,13 @@ header .owl-theme .owl-dots .owl-dot span {
   background: #00c3da !important;
   outline: none !important;
 }
-.testemonials .testimonial-slider .owl-carousel .owl-theme .owl-dots .owl-dot span {
+.testemonials
+  .testimonial-slider
+  .owl-carousel
+  .owl-theme
+  .owl-dots
+  .owl-dot
+  span {
   color: #00c3da !important;
   outline: none !important;
 }
@@ -289,51 +304,3 @@ footer form button {
   background-color: #00c3da !important;
 }
 /* ====================== Start Footer ======================= */
-
-
-
-/* Extra small devices (portrait phones, less than 576px) */
-/* @media (max-width: 575.98px) {
-  .navbar-collapse {
-    background-color: #fff !important;
-    text-align: center;
-    border-radius: 1rem;
-  }
-  .navbar-dark .navbar-nav .nav-link {
-    color: #111 !important;
-  }
-  .inner {
-    margin: 0 !important;
-    padding: 0 !important;
-  }
-  .inner + div {
-    margin: 0 !important;
-    padding: 0 !important;
-  }
-  .social-media {
-    width: 100% !important;
-  }
-} */
-
-/* Small devices (landscape phones, 576px and up) */
-/* @media (min-width: 576px) and (max-width: 767.98px) {
-  .navbar-collapse {
-    background-color: #fff !important;
-    text-align: center;
-    border-radius: 1rem;
-  }
-  .navbar-dark .navbar-nav .nav-link {
-    color: #111 !important;
-  }
-  .inner {
-    margin: 0 !important;
-    padding: 0 !important;
-  }
-  .inner + div {
-    margin: 0 !important;
-    padding: 0 !important;
-  }
-  .social-media {
-    width: 100% !important;
-  }
-} */
